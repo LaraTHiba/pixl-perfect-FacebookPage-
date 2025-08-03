@@ -205,9 +205,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 50px; /* space below navbar */
+  margin-top: 50px; 
   width: 100%;
   height: 100%;
+  gap: 120px;
 }
 
 .main-left,
@@ -227,6 +228,7 @@ body {
 
 .main-center {
   background: #232323;
+  width:500px;
 }
 
 .main-left{
@@ -576,4 +578,34 @@ body {
   color: #b0b3b8;
   font-size: 14px;
   font-weight: 500;
+}
+
+.main-right{
+  display:flex;
+  justify-content: left;
+  align-items: flex-start;
+  border-radius: 20px;
+
+}
+
+.ad-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.ad-image {
+  max-width: 120px;
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 16px;
+  display: block;
+}
+
+.ad-text-title {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
 }
