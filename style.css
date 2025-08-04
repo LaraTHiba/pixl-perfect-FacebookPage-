@@ -205,7 +205,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 50px; 
+  margin-top: 40px; 
   width: 100%;
   height: 100%;
   gap: 120px;
@@ -233,7 +233,7 @@ body {
 
 .main-left{
     width:250px;
-    color:#e4e6eb;
+    color:#a4a5a8;
 }
 
 .left-menu{
@@ -246,8 +246,7 @@ body {
 .left-menu img{
     display: block;
     align-items: center;
-    font-size: 18px;
-    padding: 5px;
+    font-size: 12px;
     border-radius: 8px;
     transition: background-color 0.2s ease;
     cursor: pointer;
@@ -280,7 +279,7 @@ body {
     margin-right: 15px;
 }
 .menu-item span{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .main-left{
@@ -297,6 +296,23 @@ body {
     width: 100%;
     background-color: #3a3b3d;
     opacity: 0.6;
+}
+
+.shortcut-lower-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 8px;
+  color: #c1c4cc;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
 }
 
 .icon-dual-color {
@@ -334,13 +350,14 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: #161616;
+    outline: none;
+    border:none;
     max-width: 550px;
 }
 
 .center-section {
     background-color:#232323;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding: 10px;
     font-family: 'Cairo', sans-serif;
     color: #1c1e21;
@@ -412,7 +429,9 @@ body {
       scroll-behavior: smooth;
       width: 100%;
       max-width: 100%;
-      box-sizing: border-box;   
+      outline: none;
+      scrollbar-width: thin;
+      border: none;
 }
 
 .cards-scroll-container::-webkit-scrollbar {
@@ -430,7 +449,6 @@ body {
     background-color: #3a3b3d;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 .center-section.section-two {
   width: 100%;
@@ -438,6 +456,13 @@ body {
   padding: 10px 0;
   box-sizing: border-box;
   background-color: #161616;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.center-section.section-one {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .section-two {
@@ -467,6 +492,11 @@ body {
   padding: 0 10px;
   white-space: pre-line;
   line-height: 1.5;
+}
+.paragraph-text p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top:0;
 }
 
 .upper-section{
@@ -594,7 +624,6 @@ body {
   align-items: center;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   width: 100%;
 }
 
@@ -607,9 +636,28 @@ body {
 }
 
 .ad-text-title {
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
+  color: #b0b3b8;
+  font-size: 10px;
+  font-weight: 600;
+
+}
+.shortcut-item{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items:flex-start ;
+}
+
+.shortcut-profile-img-wrapper {
+  display: flex;
+  gap: 10px; 
+}
+
+.shortcut-lower-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .card {
@@ -629,7 +677,6 @@ body {
   border-radius: 50%;
   border: 2px solid #fff;
   object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
 .card-bottom-text {
@@ -649,5 +696,4 @@ body {
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
