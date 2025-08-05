@@ -231,9 +231,15 @@ body {
   width:500px;
 }
 
-.main-left{
-    width:250px;
-    color:#a4a5a8;
+.main-left-footer {
+  margin-top: 50px;
+  padding: 10px 8px 16px 6px;
+  font-size: 10px;
+  color: #b0b3b8;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-break: break-word;
 }
 
 .left-menu{
@@ -287,7 +293,7 @@ body {
     padding: 20px;
     color: #e4e6eb;
     margin-left:0;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .menu-divider{
