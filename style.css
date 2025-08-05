@@ -804,3 +804,22 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+
+.contact-img-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-last-online {
+  position: absolute;
+  bottom:5px;
+  left: 10px;
+  background: #232323;
+  color: #34cf34;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 0px 5px;
+  border-radius: 8px;
+  z-index: 2;
+  pointer-events: none;
+}
